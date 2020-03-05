@@ -16,7 +16,7 @@ void Stack::push(int elements)
     else
     {
         top++;
-        this-> element[MAX]=elements;
+        this-> element[top]=elements;
     }
 }
 int Stack::pop()
